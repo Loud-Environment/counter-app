@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curses counter app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>Profanities said</h1>
+      <h2 id="count-el">0</h2>
+
+      <div class="btn">
+        <button id="increment-btn" onclick="increment()">New profanity</button>
+        <button id="save-btn" onclick="save()">Save</button>
+      </div>
+      <p id="save-el">Earlier profanities: </p>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
